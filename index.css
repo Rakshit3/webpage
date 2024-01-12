@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0%;
+    font-style: inherit;
+}
+
+header {
+   
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px; /* Add margin to give some space from the edges */
+}
+
+header h1 {
+    margin-left: 130px;
+    font-size: 24px;
+    color: darkorange;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.full-width-image img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+.center-heading{
+    display: flex;
+    align-items: center;
+    margin: 0 50%; 
+}
+
+.centered-headings {
+    text-align: center; 
+}
+
+.centered-headings h3 {
+    margin: 0;
+    font-size: 20px; 
+    color: darkorange;
+}
+
+.centered-headings h1 {
+    margin: 0;
+    font-size: 36px; 
+    color: darkorange;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+
+
+.center-container {
+    text-align: center;
+}
+.center-container h3 {
+    display: inline-block;
+
+    margin: 0 100px;
+     
+}
+
+.center-par{
+    text-align: center;
+}
+
+
+.center-par p{
+   
+    display: inline-block;
+    margin: 0 39px; 
+    
+}
+.centered-images {
+    text-align: center; 
+ 
+}
+
+.centered-images img {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 0 39px; 
+}
+
+#greenimg img{
+    height: 340px;
+    width: 340px;
+    position: relative;
+    margin-left: 180px;
+  
+}
+
+
+.full-width-image2 img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+    
+
+.green-button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.green-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+
+
+}
+
+#carimage , img{
+  height: 350px;
+  width: 800px;
+}
+
+.container{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    margin-bottom: 35%;
+
+    background-color: lightslategray;
+             
+}
+
+.lowerblackdiv{
+    height: 300px;
+   width: 100%;
+    bottom: 0;
+    left: 0;
+     position: absolute;
+    margin: 0%;
+    background-color:  black;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.whitediv{
+    position: absolute;
+   
+    margin-left: 59%;
+    margin-bottom: 40%;
+
+    
+    height: 40%;
+    width: 30%;
+   background-color: white;
+   padding: 2%;
+   padding-bottom: 10%;
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-section {
+    display: inline-block;
+    width: 22%;
+    margin: 0 1%;
+    vertical-align: top;
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
